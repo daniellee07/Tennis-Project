@@ -1,0 +1,29 @@
+{
+  "raw_matches": 27772,
+  "excluded": {
+    "missing_key": 489,
+    "duplicate_match_key": 0,
+    "missing_player": 0,
+    "same_player": 0,
+    "invalid_date": 0,
+    "unknown_surface": 135,
+    "walkover_or_default": 182
+  },
+  "retained_matches": 26966,
+  "player_rows": 53932,
+  "invalid_complete_stat_rows": 12,
+  "valid_stat_player_rows": 52202,
+  "by_year": {
+    "2016": 2949,
+    "2017": 2836,
+    "2018": 2996,
+    "2019": 2700,
+    "2020": 1459,
+    "2021": 2714,
+    "2022": 2900,
+    "2023": 2921,
+    "2024": 3138,
+    "2025": 2353
+  },
+  "missing_rank_matches": 436
+}

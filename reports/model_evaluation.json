@@ -1,0 +1,98 @@
+{
+  "selected_model": "expanded",
+  "validation": {
+    "rank_only": {
+      "accuracy": 0.6413748378728924,
+      "log_loss": 0.6302884848498944
+    },
+    "expanded": {
+      "accuracy": 0.6355382619974059,
+      "log_loss": 0.629946320857313
+    }
+  },
+  "final_test": {
+    "ranking_rule": {
+      "accuracy": 0.6522687609075044
+    },
+    "rank_only": {
+      "accuracy": 0.6522687609075044,
+      "log_loss": 0.6281333718927756
+    },
+    "expanded": {
+      "accuracy": 0.6417975567190227,
+      "log_loss": 0.6267132136454168
+    }
+  },
+  "source_commit": "c5537eed87d8a76f3adb598cdf506d885872923b",
+  "refit_years": [
+    2016,
+    2024
+  ],
+  "splits": {
+    "train": {
+      "retained_matches": 21475,
+      "eligible_matches": 21154,
+      "excluded_matches": 321,
+      "a_win_share": 0.5023636191736788
+    },
+    "validation": {
+      "retained_matches": 3138,
+      "eligible_matches": 3084,
+      "excluded_matches": 54,
+      "a_win_share": 0.501621271076524
+    },
+    "test": {
+      "retained_matches": 2353,
+      "eligible_matches": 2292,
+      "excluded_matches": 61,
+      "a_win_share": 0.5209424083769634
+    }
+  },
+  "surface_breakdown": {
+    "Clay": {
+      "matches": 768,
+      "ranking_rule_accuracy": 0.6458333333333334,
+      "rank_only": {
+        "accuracy": 0.6510416666666666,
+        "log_loss": 0.6318960167935228
+      },
+      "expanded": {
+        "accuracy": 0.6380208333333334,
+        "log_loss": 0.6278538684371533
+      }
+    },
+    "Grass": {
+      "matches": 295,
+      "ranking_rule_accuracy": 0.6305084745762712,
+      "rank_only": {
+        "accuracy": 0.6237288135593221,
+        "log_loss": 0.639007014666175
+      },
+      "expanded": {
+        "accuracy": 0.6067796610169491,
+        "log_loss": 0.6428611987378737
+      }
+    },
+    "Hard": {
+      "matches": 1229,
+      "ranking_rule_accuracy": 0.661513425549227,
+      "rank_only": {
+        "accuracy": 0.6598860862489829,
+        "log_loss": 0.623172073355813
+      },
+      "expanded": {
+        "accuracy": 0.6525630593978845,
+        "log_loss": 0.6221243784278998
+      }
+    }
+  },
+  "code_sha256": {
+    "MODEL_DESIGN.md": "948ded58ab906d8299f47a2e2a61b02396cf183a6366feb0bbf166d3d473ddc4",
+    "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/analytics.py": "b8d1bbe01133192e521acb9faa685e92e365d68b3b905ddd67812f2706f6a7f2",
+    "src/download_data.py": "aac2332f2e3f12d4b18a65e76e13d6dee775b1c09b81c8d68d8c6e2530961777",
+    "src/model.py": "0229c9c76b674042e2cd0fed485d1582bb51ce6ff86153d159de2e3fdd42906e",
+    "src/prepare_data.py": "2987d93bb9d71f9055f37dda0e3fcda4f9e7e50fa4607ce882d3e3296797242b",
+    "src/verify.py": "a4810c542078e16fa402ce02a0ee01478ef79bd69380150a60d7cfa94f52e690"
+  }
+}
